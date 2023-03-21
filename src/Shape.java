@@ -5,9 +5,9 @@ public interface Shape {
      // В методе main класса Main создать несколько
      // обьектов этих классов и вывести на экран площади и периметры фигур.
 
-        double Perimeter();
+        double perimeter();
 
-        double Area();
+        double area();
 
 
 
