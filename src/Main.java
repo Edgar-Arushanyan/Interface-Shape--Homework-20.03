@@ -5,16 +5,16 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Circle circle = new Circle(5 );
+        Shape circle = new Circle(5 );
 
         System.out.println("Circle has area of "+circle.area()); //Circle has area of 78.5
 
-        System.out.println("Circle has perimeter "+circle.perimeter()); //Circle has perimeter 31.400000000000002
+        System.out.println("Circle has perimeter of"+circle.perimeter()); //Circle has perimeter of 31.400000000000002
 
 
         System.out.println("-------------------------------------------");
 
-        Rectangle rectangle = new Rectangle(10,20);
+        Shape rectangle = new Rectangle(10,20);
 
         System.out.println("Rectangle has area of "+rectangle.area()); //Rectangle has area of 200.0
 
